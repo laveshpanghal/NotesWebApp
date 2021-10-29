@@ -4,6 +4,7 @@ module.exports = {
   important: true,
   theme: {
 
+
     backgroundColor: theme => ({
       ...theme('colors'),
       'primary': '#91B2C7',
@@ -20,7 +21,9 @@ module.exports = {
       'secondary': '#9197C7',
       'danger': '#C7BD91',
       'back':"#202020",
-      'photo':"#E5E7EB"
+      'new':"#1A1A1A",
+      'photo':"#E5E7EB",
+
     }),
     borderWidth: {
       DEFAULT: '1px',
@@ -32,7 +35,19 @@ module.exports = {
       '8': '8px',
       '25':'25px'
     },
-    extend: {},
+    extend: {
+
+
+        width: {
+          '8/10': '85.3%',
+          '2/7': '28.5714286%',
+          '3/7': '42.8571429%',
+          '4/7': '57.1428571%',
+          '5/7': '71.4285714%',
+          '6/7': '85.7142857%',
+        },
+
+    },
   },
   variants: {
     extend: {},
